@@ -2,6 +2,7 @@
 import React from 'react'; 
 import Image from 'next/image'; 
 import { TypeAnimation } from 'react-type-animation';
+import ProjectSection from './ProjectSection';
 
 
 const HeroSection = () => { 
@@ -56,7 +57,8 @@ const HeroSection = () => {
                         /> 
                     </div>
                 </div>
-            </div> 
+            </div>  
+          
         </section>   
     );
 
